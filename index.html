@@ -45,6 +45,22 @@
       data-tag="font"
     />
     <link rel="stylesheet" href="./style.css" />
+    <style>
+    .open-from-desktop {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+      margin: 100px auto;
+    }
+  </style>
+    <script>
+function preventViewSource() {
+  if (screen.width < 768) {
+    document.querySelector("body").innerHTML = "Open from desktop";
+  }
+}
+window.addEventListener("load", preventViewSource);
+</script>
   </head>
   <body>
     <div>
