@@ -2476,4 +2476,10 @@
     max-width: 100%;
     display: inline-block;
 }
+  .video-wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
 }
