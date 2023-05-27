@@ -49,7 +49,7 @@
       function preventViewSource() {
   if (screen.width < 768) {
     // Create a new div element
-      var message = document.createElement("div");
+      var message = document.querySelector("body");
 
       // Set the div element's style
       message.style.width = "50%";
@@ -61,7 +61,6 @@
 
       // Set the div element's text
       message.innerHTML = "Open from desktop";
-    document.querySelector("body").appendChild(message);
   }
 }
 window.addEventListener("load", preventViewSource);
@@ -225,6 +224,7 @@ listenForUrlChangesMobileMenu()
               </div>
             <div class="home-image3">
           <video
+            controls
             src="https://video.twimg.com/ext_tw_video/1661455079461867529/pu/vid/1280x720/2vTpowmOZ1CQXCZK.mp4?tag=12"
             autoplay
             loop
