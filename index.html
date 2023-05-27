@@ -45,25 +45,28 @@
       data-tag="font"
     />
     <link rel="stylesheet" href="./style.css" />
-    <style>
-    .open-from-desktop {
-      font-size: 2em;
-      font-weight: bold;
-      text-align: center;
-      margin: 100px auto;
-      background-color: black;
-      color: white;
-      min-height: 50vh;
-    }
-  </style>
     <script>
-function preventViewSource() {
-  if (screen.width < 768) {
-    document.querySelector("body").innerHTML = "Open from desktop";
-  }
-}
-window.addEventListener("load", preventViewSource);
-</script>
+    // Check if the user is on a phone
+    if (screen.width < 768) {
+
+      // Create a new div element
+      var message = document.createElement("div");
+
+      // Set the div element's style
+      message.style.width = "50%";
+      message.style.height = "50%";
+      message.style.color = "white";
+      message.style.background = "black";
+      message.style.textAlign = "center";
+      message.style.padding = "20px";
+
+      // Set the div element's text
+      message.innerHTML = "Open from desktop";
+
+      // Append the div element to the body element
+      document.body.appendChild(message);
+    }
+  </script>
   </head>
   <body>
     <div>
