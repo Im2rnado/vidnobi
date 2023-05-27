@@ -46,10 +46,9 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <script>
-    // Check if the user is on a phone
-    if (screen.width < 768) {
-
-      // Create a new div element
+      function preventViewSource() {
+  if (screen.width < 768) {
+    // Create a new div element
       var message = document.createElement("div");
 
       // Set the div element's style
@@ -62,10 +61,10 @@
 
       // Set the div element's text
       message.innerHTML = "Open from desktop";
-
-      // Append the div element to the body element
-      document.body.appendChild(message);
-    }
+    document.querySelector("body").appendChild(message);
+  }
+}
+window.addEventListener("load", preventViewSource);
   </script>
   </head>
   <body>
