@@ -1328,8 +1328,8 @@
 .playpause {
     background-image: url(https://static.thenounproject.com/png/3457061-200.png);
     background-repeat: no-repeat;
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 25%;
     position: absolute;
     align-self: flex-start;
     padding-top: var(--dl-space-space-sixunits);
