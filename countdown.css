@@ -151,29 +151,3 @@
   font-stretch: normal;
   text-decoration: none;
 }
-
-#timer{
-	text-align: center;
-	color: white;
-        font-family: Sans-Serif;
-}
-
-#d{
-	font-size: 19px;
-        font-family: Sans-Serif;
-}
-
-#h{
-	font-size: 19px;
-        font-family: Sans-Serif;
-}
-
-#m{
-	font-size: 19px;
-        font-family: Sans-Serif;
-}
-
-#s{
-	font-size: 19px;
-        font-family: Sans-Serif;
-}
