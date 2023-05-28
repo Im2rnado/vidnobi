@@ -1326,7 +1326,7 @@
   margin-right: var(--dl-space-space-sixunits);
 }
 .playpause {
-    background-image: url(https://static.thenounproject.com/png/3457061-200.png);
+    background-image: "/public/icons/play.png";
     background-repeat: no-repeat;
     width: 10%;
     height: 25%;
