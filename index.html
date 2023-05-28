@@ -79,6 +79,14 @@
         src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
       ></script>
       <link href="./home.css" rel="stylesheet" />
+      <script>
+        $('.home-video').parent().click(function () {
+  if($(this).children(".home-video").get(0).paused){        $(this).children(".home-video").get(0).play();   $(this).children(".playpause").fadeOut();
+    }else{       $(this).children(".home-video").get(0).pause();
+  $(this).children(".playpause").fadeIn();
+    }
+});
+      </script>
 
       <div class="home-container">
         <nav class="navbar-navbar navbar-root-class-name">
