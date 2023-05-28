@@ -1,7 +1,7 @@
-function timer(){
+var x = setInterval(function() {
 	// var start = new Date(2022, 3, 11, 21, 07);
 	// var t = new Date() - start;
-	var start = new Date(2023, 6, 01, 00, 01);
+	var start = new Date(2023, 6, 1, 00, 01);
 	var t = start - new Date();
 	var d = Math.floor(t / 1000 / 60 / 60 / 24);
 	var h = Math.floor(t / 1000 / 60 / 60 % 24);
@@ -16,11 +16,7 @@ function timer(){
 	if(s < 10){
 		s = "0" + s;
 	}
-	document.getElementById("d").innerHTML = d;
-	document.getElementById("h").innerHTML = h;
-	document.getElementById("m").innerHTML = m;
-	document.getElementById("s").innerHTML = s;
-}
-
-timer();
-setInterval(timer, 1000);
+	
+	document.getElementById("d").innerHTML = d + " : " + h + " : "
+  + m + " : " + s;
+}, 1000);
