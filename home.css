@@ -1465,7 +1465,7 @@
   font-size: 50px;
 }
 .home-cards {
-  width: 1249px;
+  width: 1156px;
   display: grid;
   grid-gap: var(--dl-space-space-threeunits);
   max-width: 100%;
