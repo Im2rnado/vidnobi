@@ -33,9 +33,6 @@ function fadein(){
 	}
 	else{
 		clearInterval(fadeinInterval);
-		if(ok == 2){
-			ok += 1;
-		}
 	}
 }
 
@@ -44,9 +41,4 @@ var fadeinInterval;
 
 timer();
 setInterval(timer, 1000);
-fadeInterval = setInterval(function(){
-	if(ok == 2){
-		clearInterval(fadeInterval);
-		fadeinInterval = setInterval(fadein, 50);
-	}
-}, 50)
+setInterval(fadein, 50)
