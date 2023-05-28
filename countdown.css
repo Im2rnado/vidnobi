@@ -35,15 +35,8 @@
   height: auto;
   position: absolute;
 }
-.countdown-rocket {
-  top: 20%;
-  left: 20%;
-  width: auto;
-  height: auto;
-  position: absolute;
-}
 .countdown-group4 {
-  top: 355px;
+  top: 200px;
   left: 348px;
   width: 502px;
   height: 255px;
@@ -147,6 +140,13 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.countdown-rocket {
+  top: 578px;
+  left: 319px;
+  width: 607px;
+  height: 435px;
+  position: absolute;
+}
 @media(max-width: 479px) {
   .countdown-group4 {
     top: 337px;
@@ -154,5 +154,8 @@
   }
   .countdown-text {
     font-size: 260%;
+  }
+  .countdown-rocket {
+    display: none;
   }
 }
