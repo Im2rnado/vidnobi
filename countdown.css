@@ -8,7 +8,7 @@
 }
 .countdown-countdown {
   width: 100%;
-  height: 900px;
+  height: 950px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -141,19 +141,44 @@
   text-decoration: none;
 }
 .countdown-rocket {
-  top: 578px;
-  left: 319px;
-  width: 607px;
-  height: 435px;
-  position: absolute;
+    margin-top: 35%;
+    margin-left: auto;
+    width: auto;
+    height: 32%;
+    display: block;
+    margin-right: auto;
 }
 @media(max-width: 479px) {
-  .countdown-group4 {
+    .countdown-group4 {
     top: 337px;
     left: 6px;
   }
   .countdown-text {
+    font-size: 225%;
+  }
+  .countdown-group2 {
+    width: 388px;
+  }
+  .countdown-text2 {
+    top: 20px;
+    left: 13px;
     font-size: 260%;
+  }
+  .countdown-text3 {
+    top: 0px;
+    left: 18px;
+  }
+  .countdown-text4 {
+    top: 0px;
+    left: 92px;
+  }
+  .countdown-text5 {
+    top: 0px;
+    left: 161px;
+  }
+  .countdown-text6 {
+    top: 0px;
+    right: 221px;
   }
   .countdown-rocket {
     display: none;
