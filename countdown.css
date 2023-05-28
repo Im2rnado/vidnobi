@@ -43,8 +43,8 @@
   position: absolute;
 }
 .countdown-group4 {
-  top: 358px;
-  left: 681px;
+  top: 355px;
+  left: 348px;
   width: 502px;
   height: 255px;
   display: flex;
@@ -146,4 +146,10 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+@media(max-width: 479px) {
+  .countdown-group4 {
+    top: 337px;
+    left: 6px;
+  }
 }
