@@ -43,7 +43,7 @@
   position: absolute;
 }
 .countdown-group4 {
-  top: 27%;
+  top: 35%;
   left: 8%;
   width: 100%;
   height: 15%;
@@ -51,7 +51,6 @@
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
-  top: 34%;
 }
 .countdown-text {
   color: rgb(189, 68, 190);
