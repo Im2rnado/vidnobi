@@ -140,6 +140,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.countdown-root-class-name {
+  top: 73px;
+  left: 0px;
+  position: absolute;
+}
 .countdown-rocket {
     margin-top: 35%;
     margin-left: auto;
@@ -179,6 +184,10 @@
   .countdown-text6 {
     top: 0px;
     left: 217px;
+  }
+  .countdown-root-class-name {
+    top: 70px;
+    left: 19px;
   }
   .countdown-rocket {
     display: none;
