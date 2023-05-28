@@ -57,7 +57,7 @@
   color: rgb(189, 68, 190);
   height: auto;
   position: absolute;
-  font-size: 250%;
+  font-size: 300%;
   font-style: Bold;
   text-align: left;
   font-family: Poppins;
@@ -151,5 +151,8 @@
   .countdown-group4 {
     top: 337px;
     left: 6px;
+  }
+  .countdown-text {
+    font-size: 260%;
   }
 }
