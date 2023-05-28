@@ -64,6 +64,7 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  text-shadow: -1px 0 #12141d, 0 1px #12141d, 1px 0 #12141d, 0 -1px #12141d;
 }
 .countdown-group2 {
   top: 50%;
