@@ -34,15 +34,19 @@
     <meta name="twitter:image:alt" content="Vidnobi">
     
     <script>
+      var play_pause_status = "play";
+      
       var bunnyVideo = document.getElementById("home-video");
       function playPause() { 
-        if (bunnyVideo.paused)
+        if (play_pause_status == "pause")
         {           
           bunnyVideo.play();
+          play_pause_status = "play";
         }
         else 
         {
         bunnyVideo.pause();
+          play_pause_status = "pause";
         }
       } 
     </script>
@@ -240,6 +244,7 @@ listenForUrlChangesMobileMenu()
           </div>
         </div>
         <div class="home-image3">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
           <video
             src="https://video.twimg.com/ext_tw_video/1661455079461867529/pu/vid/1280x720/2vTpowmOZ1CQXCZK.mp4?tag=12"
             loop
