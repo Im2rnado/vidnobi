@@ -149,7 +149,7 @@
     margin-right: auto;
 }
 @media(max-width: 479px) {
-    .countdown-group4 {
+  .countdown-group4 {
     top: 337px;
     left: 6px;
   }
@@ -178,7 +178,7 @@
   }
   .countdown-text6 {
     top: 0px;
-    right: 221px;
+    right: 237px;
   }
   .countdown-rocket {
     display: none;
