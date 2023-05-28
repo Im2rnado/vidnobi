@@ -8,7 +8,6 @@
   align-items: center;
   flex-shrink: 1;
   padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-unit);
 }
