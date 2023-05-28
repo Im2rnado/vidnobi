@@ -41,14 +41,14 @@
 }
 .countdown-rocket {
   top: 150px;
-  left: 699px;
+  left: 50%;
   width: 607px;
   height: 435px;
   position: absolute;
 }
 .countdown-group4 {
   top: 283px;
-  left: 128px;
+  left: 10%;
   width: 494px;
   height: 172px;
   display: flex;
