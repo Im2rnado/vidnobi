@@ -8,7 +8,7 @@
 }
 .countdown-countdown {
   width: 100%;
-  height: 771px;
+  height: 1028px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -17,11 +17,20 @@
   background-color: #12141d;
 }
 .countdown-bottomimage {
-  top: 542.0000610351562px;
-  left: 0px;
+  left: -5px;
   width: 1366px;
-  height: 229px;
+  bottom: -93px;
+  height: 436px;
   position: absolute;
+  margin-bottom: 3px;
+}
+.countdown-bottomimage1 {
+  left: -7px;
+  width: 1366px;
+  bottom: -14px;
+  height: 394px;
+  position: absolute;
+  margin-bottom: 3px;
 }
 .countdown-topimage {
   top: 0px;
