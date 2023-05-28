@@ -1325,6 +1325,20 @@
   padding-top: var(--dl-space-space-threeunits);
   margin-right: var(--dl-space-space-sixunits);
 }
+.playpause {
+    background-image:url("https://static.thenounproject.com/png/3457061-200.png");
+    background-repeat:no-repeat;
+    width:20%;
+    height:20%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
 .home-image4 {
   width: 735px;
   height: 627px;
