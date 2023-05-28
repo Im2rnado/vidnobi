@@ -36,7 +36,7 @@
     <script>
       var play_pause_status = "play";
       
-      var bunnyVideo = document.getElementById("video.home-video");
+      var bunnyVideo = document.getElementById("home-video");
       function playPause() { 
         if (play_pause_status == "pause")
         {           
@@ -252,6 +252,7 @@ listenForUrlChangesMobileMenu()
             preload="auto"
             autoplay
             class="home-video"
+            id="home-video"
             onclick="playPause()"
           ></video>
           <div class="playpause" onclick="playPause()"></div>
