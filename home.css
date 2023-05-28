@@ -1326,7 +1326,7 @@
   margin-right: var(--dl-space-space-sixunits);
 }
 .playpause {
-    background-image: "/public/icons/play.png";
+    background-image: url(/public/icons/play.png);
     background-repeat: no-repeat;
     width: 10%;
     height: 25%;
