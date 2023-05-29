@@ -72,7 +72,7 @@
 .countdown-text2 {
   top: 20px;
   color: rgb(255, 255, 255);
-  width: 494px;
+  width: 600px;
   height: auto;
   position: absolute;
   font-size: 72px;
@@ -99,7 +99,7 @@
   text-decoration: none;
 }
 .countdown-text4 {
-  left: 145px;
+  left: 152px;
   color: rgb(199, 199, 199);
   height: auto;
   position: absolute;
@@ -113,7 +113,7 @@
   text-decoration: none;
 }
 .countdown-text5 {
-  left: 266px;
+  left: 285px;
   color: rgb(199, 199, 199);
   height: auto;
   position: absolute;
@@ -127,7 +127,7 @@
   text-decoration: none;
 }
 .countdown-text6 {
-  left: 402px;
+  left: 425px;
   color: rgb(199, 199, 199);
   height: auto;
   position: absolute;
